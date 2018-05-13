@@ -19,9 +19,10 @@ function whileLoop(n){
 function maybeTrue() {
   return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
 }
-doWhileLoop(array){
+function doWhileLoop(array){
   
   while(array.length>0 && maybeTrue()){
     array.pop()
   }
+  
 }
