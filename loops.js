@@ -3,6 +3,6 @@ function maybeTrue() {
 }
 function doWhileLoop(arr){
   while(arr.length>1){
-    arr.pop
+    arr.pop()
   }
 }
