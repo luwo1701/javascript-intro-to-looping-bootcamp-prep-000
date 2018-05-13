@@ -8,7 +8,7 @@ function forLoop(array){
       array.push("I am ${i} strange loops.")
     }
   }
-  return
+  return array
 }
 
 function whileLoop(n){
@@ -28,5 +28,5 @@ function doWhileLoop(array){
   while(array.length > 0 && maybeTrue()){
     array.pop()
   }
-  return
+  return array
 }
