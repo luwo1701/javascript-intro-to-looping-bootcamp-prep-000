@@ -1,3 +1,4 @@
+
 function forLoop(array){
   for (let i = 0; i < 25; i++) {
     if (i==1){
@@ -8,6 +9,7 @@ function forLoop(array){
     }
   }
 }
+
 function whileLoop(n){
   while(n>-1){
     console.log(n)
